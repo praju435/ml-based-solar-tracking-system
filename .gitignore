@@ -1,0 +1,36 @@
+# Python virtual environments
+venv/
+.venv/
+backend/.venv310/
+backend/analysis/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# ML artifacts
+*.joblib
+*.h5
+*.pkl
+*.pt
+*.onnx
+
+# Datasets
+*.csv
+data/
+datasets/
+
+# Node
+node_modules/
+build/
+dist/
+
+# Secrets
+.env
+firebase-key.json
+serviceAccountKey.json
+
+# OS
+.DS_Store
+
+

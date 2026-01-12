@@ -1,0 +1,96 @@
+body {
+  background: linear-gradient(to bottom, #aee0ff, #e3f3ff);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.app-container {
+  text-align: center;
+  color: #002b5b;
+}
+
+.navbar {
+  background-color: #87ceeb;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #002b5b;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffd700;
+}
+
+.page {
+  padding: 20px;
+}
+
+.cards, .prediction-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  width: 180px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.chart-container {
+  width: 80%;
+  margin: 30px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+.download-btn {
+  margin-top: 20px;
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.download-btn:hover {
+  background-color: #ffcc00;
+}
+
+.data-table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.data-table th, .data-table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.data-table th {
+  background-color: #87ceeb;
+  color: #002b5b;
+}
