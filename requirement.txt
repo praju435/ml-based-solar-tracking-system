@@ -1,0 +1,18 @@
+# Core
+python-dotenv
+
+# Backend / API
+Flask
+Flask-Cors
+requests
+
+# Data & ML
+numpy
+pandas
+scikit-learn
+joblib
+
+# Optional (only if you used them)
+tensorflow
+matplotlib
+seaborn
